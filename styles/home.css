@@ -145,8 +145,8 @@ section.corpo.parallax-2 {
     background-repeat: no-repeat;
 }
 .img5 {
-    background-image: url(/DC/imagens/flash.jpg);
-    width: 200px;
+    background-image: url(/DC/imagens/dc.jpg);
+    width: 400px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -224,6 +224,7 @@ section.corpo.parallax-2 {
     transition: 1s;
     cursor: pointer;
 }
+/*
 .card5 {
     width: 200px;
     border: 2px solid #00ff0d;
@@ -237,8 +238,8 @@ section.corpo.parallax-2 {
     position: relative;
     top: 240px;
     margin: auto;
-
 }
+*/
 
 
 
@@ -332,6 +333,7 @@ section.corpo.parallax-2 {
     color: #fff;
     border: 1.5px solid #fff;
 }
+/*
 .card5 a {
     text-decoration: none;
     color: #00ff0d;
@@ -350,6 +352,7 @@ section.corpo.parallax-2 {
     color: #fff;
     border: 1.5px solid #fff;
 }
+*/
 
 /* --------------------- FORMATAÇÕES CARDS/SUBTITULOS --------------------*/
 
@@ -445,3 +448,6 @@ section.corpo.parallax-2 {
     cursor: pointer;
     border-radius: 5px;
 }
+
+/* --------------------- FORMATAÇÕES CARD HISTORIA --------------------*/
+.card5
