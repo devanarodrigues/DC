@@ -1,0 +1,447 @@
+/* ---------------------FORMATAÇÕES GERAIS--------------------*/
+
+body {
+    font-family: 'century gothic';
+    margin: 0 auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+main {
+    display: block;
+    background-color: black;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* --------------------- FORMATAÇÕES LAYOUT PRINCIPAL --------------------*/
+
+#layout-principal.module.parallax {
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 15px #fff;
+    padding: 0;
+    font-family: "Impact";
+    font-size: 2em;
+}
+
+.module.parallax h2,
+h3 {
+    background-color: rgba(0, 0, 0, 0.336);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.module.parallax h3 {
+    margin-top: 0;
+}
+
+.module.parallax h2 {
+    margin-bottom: 0;
+}
+
+#corpo{
+    margin-top: 90px;
+}
+/* --------------------- FORMATAÇÕES DIRETAS --------------------*/
+
+section.module h2 {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 5px;
+    color: white;
+    letter-spacing: 4px;
+}
+
+section.module h3 {
+    padding-bottom: 10px;
+    text-decoration: overline 3px;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 0;
+    color: white;
+    font-family: "century gothic";
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    background-color: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+    width: 10px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+/* --------------------- FORMATAÇÕES PARALLAX --------------------*/
+
+section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.module.parallax.parallax-1::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0, rgb(0, 26, 255, 0) 40%, black 100%);
+}
+
+
+/* --------------------- IMAGENS --------------------*/
+
+section.module.parallax-1 {
+    background-image: url(/imagens/background.jpg);
+}
+
+section.corpo.parallax-2 {
+    background-color: black;
+}
+
+.img1 {
+    background-image: url(/imagens/arrow.jpg);
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background-image: url(/imagens/batman.jpg);
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img3 {
+    background-image: url(/imagens/sw.jpg);
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img4 {
+    background-image: url(/imagens/cw.jpg);
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img5 {
+    background-image: url(/imagens/flash.jpg);
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* --------------------- FORMATAÇÕES CARDS -------------------*/
+
+.content {
+    width: 900px;
+    height: 900px;
+    padding: 12px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #000;
+    border: 1.5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.226);
+    transition: 0.95s;
+}
+.content:hover{
+    box-shadow: 0px 0px 65px rgba(255, 255, 255, 0.295);
+}
+
+.card1 {
+    width: 200px;
+    border: 2px solid #004603;
+    height: 400px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: #004603;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.card2 {
+    width: 200px;
+    border: 2px solid #fff;
+    height: 400px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: #000;
+    margin: auto;
+    margin-top: 0;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.card3 {
+    width: 200px;
+    border: 2px solid red;
+    height: 400px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: red;
+    margin-right: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.card4 {
+    width: 200px;
+    border: 2px solid #0099ff;
+    height: 400px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: #0099ff;
+    transition: 1s;
+    cursor: pointer;
+}
+.card5 {
+    width: 200px;
+    border: 2px solid #00ff0d;
+    height: 400px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: #00ff0d;
+    transition: 1s;
+    cursor: pointer;
+    position: relative;
+    top: 240px;
+    margin: auto;
+
+}
+
+
+
+/* --------------------- FORMATAÇÕES CARDS/BOTÕES --------------------*/
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 a {
+    font-family: 'Copperplate Gothic';
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.card1 a {
+    top: 330px;
+    position: relative;
+    padding: 11px 40px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #fff;
+    color: #004603;
+    border-radius: 50px;
+    border: 1.5px solid #004603;
+    transition: 0.75s;
+}
+
+.card1 a:hover {
+    box-shadow: 0px 0px 15px #004603;
+    border: 1.5px solid #fff;
+    background-color: #004603;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card2 a {
+    text-decoration: none;
+    color: #000;
+    top: 330px;
+    position: relative;
+    background-color: #fff;
+    padding: 11px 40px;
+    border-radius: 50px;
+    border: 2px solid #000;
+    transition: 0.75s;
+}
+
+.card2 a:hover {
+    box-shadow: 0px 0px 15px rgb(131, 131, 131);
+    background-color: #000;
+    color: #fff;
+    border: 1.5px solid rgb(131, 131, 131);
+}
+
+.card3 a {
+    text-decoration: none;
+    color: red;
+    top: 330px;
+    position: relative;
+    background-color: #fff;
+    padding: 11px 40px;
+    border-radius: 50px;
+    border: 2px solid red;
+    transition: 0.75s;
+}
+
+.card3 a:hover {
+    box-shadow: 0px 0px 15px red;
+    background-color: red;
+    color: #fff;
+    border: 1.5px solid #fff;
+}
+
+.card4 a {
+    text-decoration: none;
+    color: #0099ff;
+    top: 330px;
+    position: relative;
+    background-color: #fff;
+    padding: 11px 40px;
+    border-radius: 50px;
+    border: 2px solid #0099ff;
+    transition: 0.75s;
+}
+
+.card4 a:hover {
+    box-shadow: 0px 0px 15px #0099ff;
+    background-color: #0099ff;
+    color: #fff;
+    border: 1.5px solid #fff;
+}
+.card5 a {
+    text-decoration: none;
+    color: #00ff0d;
+    top: 330px;
+    position: relative;
+    background-color: #fff;
+    padding: 11px 40px;
+    border-radius: 50px;
+    border: 2px solid #00ff0d;
+    transition: 0.75s;
+}
+
+.card5 a:hover {
+    box-shadow: 0px 0px 15px #00ff0d;
+    background-color: #00ff0d;
+    color: #fff;
+    border: 1.5px solid #fff;
+}
+
+/* --------------------- FORMATAÇÕES CARDS/SUBTITULOS --------------------*/
+
+.card1 h4 {
+    font-size: 1.25em;
+    backdrop-filter: blur(2px);
+    backdrop-filter: contrast(1.25);
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+    width: 180px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.card1 h4:hover {
+    text-shadow: 0px 0px 20px #004603;
+    filter: brightness(4);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.card2 h4 {
+    font-size: 1.25em;
+    backdrop-filter: blur(2px);
+    backdrop-filter: contrast(1.25);
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+    width: 180px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.card2 h4:hover {
+    text-shadow: 0px 0px 10px rgb(131, 131, 131);
+    filter: brightness(2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.card3 h4 {
+    font-size: 1.25em;
+    backdrop-filter: blur(2px);
+    backdrop-filter: contrast(1.25);
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+    width: 180px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.card3 h4:hover {
+    text-shadow: 0px 0px 15px red;
+    filter: brightness(2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.card4 h4 {
+    font-size: 1.25em;
+    backdrop-filter: blur(2px);
+    backdrop-filter: contrast(1.25);
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+    width: 180px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.card4 h4:hover {
+    text-shadow: 0px 0px 10px #0099ff;
+    filter: brightness(2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
