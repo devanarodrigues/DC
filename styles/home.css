@@ -5,6 +5,7 @@ body {
     margin: 0 auto;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    background-color: #000;
 }
 
 main {
@@ -408,7 +409,12 @@ section.corpo.parallax-2 {
 
 /* --------------------- FORMATAÇÕES FOOTER --------------------*/
 footer{
+    
     text-align: center;
-    height: 10px;
-    color: black;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 auto;
+    height: 1-px;
+    background-color: black;
+    margin-top: 100px;
 }
