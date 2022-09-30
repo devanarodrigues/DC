@@ -21,7 +21,7 @@ main {
 
 #layout-principal.module.parallax {
     backdrop-filter: blur(3px);
-    box-shadow: 0px 0px 15px red;
+    box-shadow: 0px 0px 15px #fff;
     padding: 0;
     font-family: "Impact";
     font-size: 2em;
@@ -42,9 +42,10 @@ h3 {
     margin-bottom: 0;
 }
 
-#corpo{
+#corpo {
     margin-top: 90px;
 }
+
 /* --------------------- FORMATAÇÕES DIRETAS --------------------*/
 
 section.module h2 {
@@ -144,6 +145,7 @@ section.corpo.parallax-2 {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .img5 {
     background-image: url(/imagens/dc.jpg);
     width: 400px;
@@ -155,9 +157,9 @@ section.corpo.parallax-2 {
 
 /* --------------------- FORMATAÇÕES CARDS -------------------*/
 
-.content {
+.content1 {
     width: 900px;
-    height: 900px;
+    height: 420px;
     padding: 12px;
     margin: 0 auto;
     display: flex;
@@ -167,7 +169,8 @@ section.corpo.parallax-2 {
     box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.226);
     transition: 0.95s;
 }
-.content:hover{
+
+.content1:hover {
     box-shadow: 0px 0px 65px rgba(255, 255, 255, 0.295);
 }
 
@@ -224,33 +227,13 @@ section.corpo.parallax-2 {
     transition: 1s;
     cursor: pointer;
 }
-/*
-.card5 {
-    width: 200px;
-    border: 2px solid #00ff0d;
-    height: 400px;
-    border-radius: 10px;
-    padding: 5px;
-    text-align: center;
-    background-color: #00ff0d;
-    transition: 1s;
-    cursor: pointer;
-    position: relative;
-    top: 240px;
-    margin: auto;
-}
-*/
-
-
 
 /* --------------------- FORMATAÇÕES CARDS/BOTÕES --------------------*/
 
 .card1,
 .card2,
 .card3,
-.card4,
-.card5,
-.card6 a {
+.card4 a {
     font-family: 'Copperplate Gothic';
     font-size: 1.2em;
     font-weight: 900;
@@ -333,26 +316,6 @@ section.corpo.parallax-2 {
     color: #fff;
     border: 1.5px solid #fff;
 }
-/*
-.card5 a {
-    text-decoration: none;
-    color: #00ff0d;
-    top: 330px;
-    position: relative;
-    background-color: #fff;
-    padding: 11px 40px;
-    border-radius: 50px;
-    border: 2px solid #00ff0d;
-    transition: 0.75s;
-}
-
-.card5 a:hover {
-    box-shadow: 0px 0px 15px #00ff0d;
-    background-color: #00ff0d;
-    color: #fff;
-    border: 1.5px solid #fff;
-}
-*/
 
 /* --------------------- FORMATAÇÕES CARDS/SUBTITULOS --------------------*/
 
@@ -379,6 +342,7 @@ section.corpo.parallax-2 {
     cursor: pointer;
     border-radius: 5px;
 }
+
 .card2 h4 {
     font-size: 1.25em;
     backdrop-filter: blur(2px);
@@ -402,6 +366,7 @@ section.corpo.parallax-2 {
     cursor: pointer;
     border-radius: 5px;
 }
+
 .card3 h4 {
     font-size: 1.25em;
     backdrop-filter: blur(2px);
@@ -425,6 +390,7 @@ section.corpo.parallax-2 {
     cursor: pointer;
     border-radius: 5px;
 }
+
 .card4 h4 {
     font-size: 1.25em;
     backdrop-filter: blur(2px);
@@ -448,5 +414,3 @@ section.corpo.parallax-2 {
     cursor: pointer;
     border-radius: 5px;
 }
-
-/* --------------------- FORMATAÇÕES CARD HISTORIA --------------------*/
