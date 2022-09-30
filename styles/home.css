@@ -107,7 +107,7 @@ section.module.parallax.parallax-1::after {
 /* --------------------- IMAGENS --------------------*/
 
 section.module.parallax-1 {
-    background-image: url(/imagens/background.jpg);
+    background-image: url(/DC/imagens/background.jpg);
 }
 
 section.corpo.parallax-2 {
@@ -115,7 +115,7 @@ section.corpo.parallax-2 {
 }
 
 .img1 {
-    background-image: url(/imagens/arrow.jpg);
+    background-image: url(/DC/imagens/arrow.jpg);
     width: 200px;
     background-size: cover;
     background-position: center;
@@ -123,7 +123,7 @@ section.corpo.parallax-2 {
 }
 
 .img2 {
-    background-image: url(/imagens/batman.jpg);
+    background-image: url(/DC/imagens/batman.jpg);
     width: 200px;
     background-size: cover;
     background-position: center;
@@ -131,7 +131,7 @@ section.corpo.parallax-2 {
 }
 
 .img3 {
-    background-image: url(/imagens/sw.jpg);
+    background-image: url(/DC/imagens/sw.jpg);
     width: 200px;
     background-size: cover;
     background-position: center;
@@ -139,21 +139,12 @@ section.corpo.parallax-2 {
 }
 
 .img4 {
-    background-image: url(/imagens/cw.jpg);
+    background-image: url(/DC/imagens/cw.jpg);
     width: 200px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
-.img5 {
-    background-image: url(/imagens/dc.jpg);
-    width: 400px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 
 /* --------------------- FORMATAÇÕES CARDS -------------------*/
 
