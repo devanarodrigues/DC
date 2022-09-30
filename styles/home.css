@@ -405,3 +405,10 @@ section.corpo.parallax-2 {
     cursor: pointer;
     border-radius: 5px;
 }
+
+/* --------------------- FORMATAÇÕES FOOTER --------------------*/
+footer{
+    text-align: center;
+    height: 10px;
+    color: black;
+}
