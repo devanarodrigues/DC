@@ -1,0 +1,224 @@
+/* ---------------------FORMATAÇÕES GERAIS--------------------*/
+
+body {
+    font-family: 'century gothic';
+    margin: 0 auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background-color: #000;
+}
+
+main {
+    display: block;
+    background-color: black;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* --------------------- FORMATAÇÕES LAYOUT PRINCIPAL --------------------*/
+
+#layout-principal.module.parallax {
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 15px #fff;
+    padding: 0;
+    font-family: "Copperplate Gothic";
+    font-size: 2em;
+}
+
+.module.parallax h2 {
+    background-color: rgba(0, 0, 0, 0.336);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.module.parallax h2 {
+    margin-bottom: 0;
+}
+
+#corpo {
+    margin-top: 90px;
+}
+
+/* --------------------- FORMATAÇÕES DIRETAS --------------------*/
+
+section.module h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: white;
+    letter-spacing: 4px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    background-color: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+    width: 10px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+/* --------------------- FORMATAÇÕES PARALLAX --------------------*/
+
+section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.module.parallax.parallax-1::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0, rgb(0, 26, 255, 0) 40%, black 100%);
+}
+
+
+/* --------------------- IMAGENS --------------------*/
+
+section.module.parallax-1 {
+    background-image: url(/DC/imagens/background-super-girl.jpg);
+}
+
+section.corpo.parallax-2 {
+    background-color: black;
+}
+
+
+
+/* --------------------- FORMATAÇÕES CAIXA DE CONTEÚDO -------------------*/
+
+.content1 {
+    width: 900px;
+    height: 900px;
+    padding: 12px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #000;
+    border: 1.5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.226);
+    transition: 0.95s;
+}
+
+.content1:hover {
+    box-shadow: 0px 0px 65px rgba(255, 0, 0, 0.829);
+}
+
+/* --------------------- FORMATAÇÕES CONTEÚDO -------------------*/
+
+.conteudo h6 {
+    color: #fff;
+    font-size: 1.2em;
+    border-bottom: 1px solid #fff;
+}
+
+.conteudo h4 {
+    color: #fff;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.308);
+    width: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.conteudo p {
+    color: #bbbbbb;
+}
+
+/* --------------------- FORMATAÇÕES BOTÕES --------------------*/
+
+.botao {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(224, 0, 0);
+    padding: 10px 40px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    margin-left: 74%;
+    position: relative;
+    top: 20px;
+}
+
+.botao:hover {
+    background-color: rgb(255, 0, 0);
+    font-weight: bolder 1200px;
+}
+
+/* --------------------- FORMATAÇÕES FOOTER --------------------*/
+footer {
+
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 auto;
+    height: 1-px;
+    background-color: black;
+    margin-top: 100px;
+}
+
+/* --------------------- FORMATAÇÕES FOOTER/ICONES --------------------*/
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: fit-content;
+    padding: 0;
+    overflow: hidden;
+}
+
+.social-icons li {
+    margin: 0;
+}
+
+.social-icons li a {
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    transition: 0.5s ease;
+    text-shadow: 0 0 0px;
+}
+
+.social-icons li a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(1px) saturate(180%);
+    -webkit-backdrop-filter: blur(6px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0);
+    border-radius: 50%;
+}
+
+.social-icons li a:hover {
+    text-shadow: 0 0 5px;
+}
