@@ -431,13 +431,13 @@ footer{
 }
 
 .social-icons li {
-    margin: 10px 10px;
+    margin: 0;
 }
 
 .social-icons li a {
     font-size: 30px;
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -446,7 +446,7 @@ footer{
     color: white;
     position: relative;
     transition: 0.5s ease;
-    text-shadow: 0 0 10px;
+    text-shadow: 0 0 0px;
 }
 
 .social-icons li a::after {
@@ -463,5 +463,5 @@ footer{
 }
 
 .social-icons li a:hover {
-    text-shadow: 0 0 0px;
+    text-shadow: 0 0 5px;
 }
