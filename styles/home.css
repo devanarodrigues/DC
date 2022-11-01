@@ -68,12 +68,12 @@ section.module h3 {
 }
 
 body::-webkit-scrollbar {
-    width: 12px;
+    width: 0px;
     background-color: #000;
 }
 
 body::-webkit-scrollbar-thumb {
-    width: 10px;
+    width: 0px;
     height: 5px;
     border-radius: 20px;
     background-color: #fff;
@@ -108,7 +108,7 @@ section.module.parallax.parallax-1::after {
 /* --------------------- IMAGENS --------------------*/
 
 section.module.parallax-1 {
-    background-image: url(/DC/imagens/background.jpg);
+    background-image: url(/imagens/background.jpg);
 }
 
 section.corpo.parallax-2 {
@@ -116,7 +116,7 @@ section.corpo.parallax-2 {
 }
 
 .img1 {
-    background-image: url(/DC/imagens/arrow.jpg);
+    background-image: url(/imagens/arrow.jpg);
     width: 200px;
     background-size: cover;
     background-position: center;
@@ -124,7 +124,7 @@ section.corpo.parallax-2 {
 }
 
 .img2 {
-    background-image: url(/DC/imagens/batman.jpg);
+    background-image: url(/imagens/batman.jpg);
     width: 200px;
     background-size: cover;
     background-position: center;
@@ -132,7 +132,7 @@ section.corpo.parallax-2 {
 }
 
 .img3 {
-    background-image: url(/DC/imagens/sw.jpg);
+    background-image: url(/imagens/sw.jpg);
     width: 200px;
     background-size: cover;
     background-position: center;
@@ -140,7 +140,7 @@ section.corpo.parallax-2 {
 }
 
 .img4 {
-    background-image: url(/DC/imagens/cw.jpg);
+    background-image: url(/imagens/cw.jpg);
     width: 200px;
     background-size: cover;
     background-position: center;
