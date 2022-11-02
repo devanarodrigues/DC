@@ -11,23 +11,23 @@ sr.reveal(".right", {
 });
 sr.reveal(".right2", {
     origin: "right",
-    distance: "500px",
+    distance: "300px",
     duration: 1500,
-    delay: 250,
+    delay: 50,
     reset: false
 });
 sr.reveal(".right3", {
     origin: "right",
-    distance: "700px",
+    distance: "300px",
     duration: 1500,
-    delay: 450,
+    delay: 50,
     reset: false
 });
 sr.reveal(".right4", {
     origin: "right",
-    distance: "900px",
+    distance: "300px",
     duration: 1500,
-    delay: 650,
+    delay: 50,
     reset: false
 });
 
@@ -42,23 +42,23 @@ sr.reveal(".left", {
 });
 sr.reveal(".left2", {
     origin: "left",
-    distance: "500px",
+    distance: "300px",
     duration: 1500,
-    delay: 250,
+    delay: 50,
     reset: false
 });
 sr.reveal(".left3", {
     origin: "left",
-    distance: "700px",
+    distance: "300px",
     duration: 1500,
-    delay: 450,
+    delay: 50,
     reset: false
 });
 sr.reveal(".left4", {
     origin: "left",
-    distance: "900px",
+    distance: "300px",
     duration: 1500,
-    delay: 650,
+    delay: 50,
     reset: false
 });
 
