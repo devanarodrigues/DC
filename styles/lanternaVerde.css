@@ -100,10 +100,10 @@ section.module.parallax.parallax-1::after {
 /* --------------------- IMAGENS --------------------*/
 
 section.module.parallax-1 {
-    background-image: url(/imagens/background-super-girl.jpg);
-    background-size: fill;
-    background-position-x: 40%;
-    background-position-y: 50%;
+    background-image: url(/imagens/background-lanterna-verde.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 section.corpo.parallax-2 {
@@ -132,6 +132,7 @@ section.corpo.parallax-2 {
     justify-content: center;
     align-content: center;
 }
+
 
 /* --------------------- FORMATAÇÕES CONTEÚDO -------------------*/
 
