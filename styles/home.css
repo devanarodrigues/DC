@@ -231,9 +231,7 @@ section.corpo.parallax-2 {
     align-items: center;
 }
 
-/* .content1:hover {
-    box-shadow: 0px 0px 65px rgba(255, 255, 255, 0.295);
-} */
+
 
 .card1 {
     width: 200px;
@@ -242,15 +240,17 @@ section.corpo.parallax-2 {
     border-radius: 10px;
     text-align: center;
     background-color: #004603;
-    transition: 1s;
-    cursor: pointer;
-    margin: 10px 25px;
+    transition: 0.5s;
+    margin: 20px 25px;
 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
+}
+.card1:hover{
+    transform: scale(1.1);
 }
 
 
