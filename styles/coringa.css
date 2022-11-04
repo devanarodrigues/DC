@@ -100,7 +100,7 @@ section.module.parallax.parallax-1::after {
 /* --------------------- IMAGENS --------------------*/
 
 section.module.parallax-1 {
-    background-image: url(/imagens/background-flash.jpg);
+    background-image: url(/imagens/background-coringa.jpg);
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -143,6 +143,9 @@ section.corpo.parallax-2 {
     color: #fff;
     font-size: 1.2em;
     border-bottom: 1px solid #fff;
+
+
+
 }
 
 .conteudo {
@@ -175,8 +178,6 @@ section.corpo.parallax-2 {
     border-radius: 15px;
     border: 1px solid #fff;
     margin: 20px;
-
-    align-self: center;
 }
 
 .botao:hover {
@@ -185,11 +186,10 @@ section.corpo.parallax-2 {
 }
 
 /* --------------------- FORMATAÇÕES FOOTER --------------------*/
-footer p {
+footer p{
     margin: 0;
     padding: 10px;
 }
-
 footer {
     text-align: center;
     color: #fff;
