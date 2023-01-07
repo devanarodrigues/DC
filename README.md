@@ -11,7 +11,8 @@ Existem duas versões do site, a primeira é o projeto completo inicial, já a s
 
 ## ​👩‍💻​ Desenvolvimento
    Por ter sido o meu primeiro site, eu tive bastante dificuldade para ajustar os elementos e para usar as propriedades certas para estiliza-los também. Já na segunda versão eu não tive esse problema, pois eu já havia mais prática desenvolvendo outros projetos. 💡<br><br>
- 📍 A responsividade foi adicionada apenas na segunda versão, visto que na primeira eu não sabia o suficiente para essa técnica.
+ 📍 A responsividade foi adicionada apenas na segunda versão, visto que na primeira eu não sabia o suficiente para essa técnica.<br><br>
+ O website foi desenvolvido utilizando HTML e CSS. Apenas sua última versão a biblioteca ScrollRevealJS também foi manuseada.
 
 
 ## 💢 Demonstração
